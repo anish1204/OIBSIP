@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/38d32c569c.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="background-image:linear-gradient(to right,#3331c7,rgb(128, 17, 246));" >
+   
+    <div class="heading">
+        <h1 style="margin-bottom:50px ;margin-top: 40px; color: yellow; ">Calculate It!</h1>
+    </div>
+    <div class="main" >
+        
+    <table>
+
+        <tr>
+            <input type="text" id="input">
+        </tr>
+        <tr>
+            <td colspan="2"><button onclick="clearresult()">C</button></td>
+            <td><button onclick="deletechar()"><i class="fa-solid fa-delete-left"></i></button></td>
+            <td><button onclick="number('/')">/</button></td>
+        </tr>
+        <tr>
+            <td><button  onclick="number('7')">7</button></td>
+            <td><button  onclick="number('8')">8</button></td>
+            <td><button  onclick="number('9')">9</button></td>
+            <td><button  onclick="number('*')">X</button></td>
+        </tr>
+
+        <tr>
+            <td><button  onclick="number('4')">4</button></td>
+            <td><button  onclick="number('5')">5</button></td>
+            <td><button  onclick="number('6')">6</button></td>
+            <td><button  onclick="number('+')">+</button></td>
+        </tr>
+        <tr>
+            <td><button  onclick="number('1')">1</button></td>
+            <td><button  onclick="number('2')">2</button></td>
+            <td><button  onclick="number('3')">3</button></td>
+            <td><button  onclick="number('-')">-</button></td>
+        </tr>
+        <tr>
+            <td><button  onclick="number('0')">0</button></td>
+            <td><button  onclick="number('.')">.</button></td>
+            <td ><button  onclick="result()">=</button></td>
+            <td><button  onclick="number('%')">%</button></td>
+        </tr>
+
+    </table>
+
+</div>
+ <script src="./app.js"></script>
+</body>
+</html>

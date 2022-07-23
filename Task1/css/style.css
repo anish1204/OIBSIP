@@ -1,0 +1,50 @@
+.main{
+    background-color: black;
+    border: 2px solid rgb(255, 255, 255);
+    width: 380px;
+    margin: 0px auto;
+    border-radius: 15px;
+}
+table{
+    width: 368px;
+    margin-left: 3px;
+    
+}
+td{
+    width: 25%;
+}
+button{
+    
+    border-radius: 80px;
+    width: 100%;
+    background-color: rgba(143, 146, 144, 0.434);
+    color: aliceblue;
+    height: 90px;
+    font-size: 30px;
+    
+}
+input
+{width: 96%;
+    height: 106px;
+    background-color: rgb(20, 100, 6);
+    font-size: 50px;
+    color: rgb(255, 251, 10);
+    margin-bottom: 17px;
+    border-radius: 15px;
+    margin-top: 19px;
+    margin-left: 7px;
+    text-align: end;
+   
+    
+
+}
+.body{
+    background-color: rgb(6, 228, 228);
+}
+.heading{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

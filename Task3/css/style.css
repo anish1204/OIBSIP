@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color: rgb(238, 238, 229);
+    text-align: center;
+    justify-content: center;
+}
+
+body{
+    background-image:linear-gradient(rgb(211, 76, 245),rgb(4, 36, 154)) ;
+    min-height: 100vh;
+}
+.container{
+    max-width: 800px;
+    margin: auto;
+    padding-left: 50px;
+    
+}
+
+.text-box{
+    color: #000;
+    
+    border: none;
+    border-bottom: 2px solid #000;
+    background: none;
+    padding: 10px;
+
+    background-color: rgb(216, 222, 213);
+    width: 50vh;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+   
+}
+.task{
+    width: 100%;
+    background: rgba(red, green, blue, alpha);
+    padding: 18px;
+    margin: 6px 0;
+    overflow: hidden;
+    background-color: rgb(218, 103, 37);
+    border-radius: 47px;
+    justify-content: center;
+    font-size: larger;
+
+}
+
+.task i{
+    float: right ;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.notcomp .task{
+    background: rgba(red, green, blue, alpha);
+    color: #fff;
+}
